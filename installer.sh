@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/TeamUltroid/Ultroid.git"
-DIR="/root/TeamUltroid"
+REPO="https://github.com/senpai80/Ultro.git"
+DIR="/root/senpai80"
 
 spinner(){
     local pid=$!
@@ -36,7 +36,7 @@ clone_repo(){
             fi
             return
     fi
-    echo -e "Cloning Ultroid ${BRANCH}... "
+    echo -e "Cloning Ultro ${BRANCH}... "
     git clone -b $BRANCH $REPO $DIR
 }
 
