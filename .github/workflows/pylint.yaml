@@ -1,7 +1,7 @@
 name: PyLint
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
     paths:
     - "**.py"
 jobs:
@@ -40,6 +40,5 @@ jobs:
           repository: .
           commit_user_name: buddhhu
           commit_user_email: 48654350+buddhhu@users.noreply.github.com
-          commit_author: senpai80 
- <48654350+buddhhu@users.noreply.github.com>
+          commit_author: Amit Sharma <48654350+buddhhu@users.noreply.github.com>
           
