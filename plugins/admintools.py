@@ -39,7 +39,7 @@ from . import (
     admins_only=True,
     manager=True,
     require="add_admins",
-    fullsudo=True,
+    fullsudo=False,
 )
 async def prmte(ult):
     xx = await ult.eor(get_string("com_1"))
